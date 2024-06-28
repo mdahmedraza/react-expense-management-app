@@ -1,0 +1,44 @@
+.form_parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.child_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   
+}
+.sub_child_parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+.sub_child_parent label{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sub_child_parent input{
+    width: 18rem;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid crimson;
+    font-size: 1rem;
+    color:crimson;
+}.sub_child_parent button{
+    width: 18rem;
+    padding: 0.5rem;
+    color: crimson;
+    background: darksalmon;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.9rem;
+    border: 1px solid crimson;
+    
+}
